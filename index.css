@@ -1,13 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 
 }
 body{
  background-image: url("fondo.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  padding: 10px;
 }
 
     
@@ -27,8 +29,9 @@ body{
 }
 
 body, html {
-    height: 100%;
+    min-height: 100dvh;
     width: 100%;
+    overflow: hidden;
 }
 
 body
@@ -38,27 +41,30 @@ body
  justify-content: center;
 }
 
-/* Estilos para el div1 */
-#div1{
+/* Estilos para el div2 */
+#div2{
     color: white;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-
-    
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 30px;
+    &>p {
+        font-size: 20px;
+    }
 }
 
 .umg {
     width: 150px;
-    height: 150px;
-    text-align: right;
-    top: 0;
-    right: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
-/* Estilos para el div2 */
-#div2{
+/* Estilos para el div1 */
+#div1{
     color: black;
     background-color: rgba(255, 255, 255, 0.507);
     display: flex;
@@ -71,10 +77,10 @@ body
 
 .nezuko {
     position: absolute;
-    top: 450px;
+    bottom: 0;
     right: 0;
-    width: 250px;
-    height: 300px;
+    width: min(250px, 25vw);
+    height: auto;
     animation: moverRL 12s linear infinite;
 }
 
@@ -112,14 +118,9 @@ div{
     height: auto;
 }
 
-#div1{
+#div1, #div2{
     max-width: 100%;
     height: auto;
-}
-#div2{
-    max-width: 100%;
-    height: auto;
-
 }
 
 #fondo {
@@ -137,16 +138,17 @@ div{
     body {
         flex-direction: column;
     }
-}
-
-@media (max-width: 600px) {
+    .nezuko {
+        width: min(150px, 30vw);
+        bottom: 0;
+        right: 0;
+    }
     img {
         flex-direction: column;
     }
-}
-@media (max-width: 600px) {
-    .nezuko {
-        width: 60px;
+    #div1 {
+        width: 90%;
+        align-items: start;
+        padding: 15px;
     }
 }
-

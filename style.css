@@ -56,13 +56,6 @@ p{
     right: 0;
 }
 
-.baile {
-    width: 100px;
-    position: absolute;
-    top: 10;
-    right: 1000px;
-    
-}
 
 
 div{
@@ -77,41 +70,25 @@ div{
 }
 
 .baile{
-    max-width: 100%;
-    height: auto;
+    width: 60px;
 }
+
+.titulo_y_baile{
+    display: flex;
+    gap: 30px;
+}
+
 @media (max-width: 600px) {
     .titan {
         width: 60px;
     }
-}
-
-
-@media (max-width: 600px) {
     .mari {
         width: 60px;
     }
-}
-@media (max-width:500px) {
     .baile{
-        width: 50px;
-        right: 200px;
-        position: fixed;
+        position: absolute;
         top: 0;
-    }
-}
-@media (max-width: 900px){
-    .baile{
-        width: 80px;
-        top: 10px;
-        right: 680px;
-    }
-}
-
-@media (max-width: 500px){
-    .baile{
-        width: 50px;
-        top: 10px;
-        right: 10px;
+        left: 0;
+        width: 40px;
     }
 }
