@@ -9,7 +9,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 10px;
+  padding: 60px;
   background-color: rgba(255, 255, 33, 0.527);
 }
 
@@ -63,7 +63,7 @@ body
 }
 
 .umg {
-    width: 150px;
+    width: 100px;
     position: absolute;
     top: 10px;
     left: 10px;
