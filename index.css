@@ -81,6 +81,7 @@ body
     flex-direction: column;
     gap: 10px;
     border-radius: 20px;
+    
 }
 
 .nezuko {
@@ -158,5 +159,8 @@ div{
         width: 90%;
         align-items: start;
         padding: 15px;
+        font-size: 10px;
     }
+
+    
 }
