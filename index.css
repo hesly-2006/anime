@@ -73,8 +73,8 @@ body
     position: absolute;
     top: 450px;
     right: 0;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 300px;
     animation: moverRL 12s linear infinite;
 }
 
@@ -99,8 +99,54 @@ div{
     width: 50%;
 }
 
+.sailor{
+    max-width: 100%;
+    height: auto;
+}
+.nezuko{
+    max-width: 100%;
+    height: auto;
+}
+.umg{
+    max-width: 100%;
+    height: auto;
+}
+
+#div1{
+    max-width: 100%;
+    height: auto;
+}
+#div2{
+    max-width: 100%;
+    height: auto;
+
+}
+
+#fondo {
+    max-width: 200%;
+    max-height: 300% ;
+    height: auto;
+}
+
+.siguiente{
+    max-width: 100%;
+    height: auto;
+}
+
 @media (max-width: 600px) {
     body {
         flex-direction: column;
     }
 }
+
+@media (max-width: 600px) {
+    img {
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px) {
+    .nezuko {
+        width: 60px;
+    }
+}
+

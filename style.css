@@ -1,7 +1,5 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
+
+
 
 body
 {
@@ -17,8 +15,19 @@ p{
 }
 
 
+#volver{
+     text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
 
-
+#volver:hover {
+    background-color: white;
+    color: black;
+    transform: scale (1.5);
+}
 
 #btn:hover{
     background-color: white;
@@ -46,14 +55,63 @@ p{
     top: 0;
     right: 0;
 }
+
+.baile {
+    width: 100px;
+    position: absolute;
+    top: 10;
+    right: 1000px;
+    
+}
+
+
 div{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.mari{
+    max-width: 100%;
+    height: auto;
+}
+
+.baile{
+    max-width: 100%;
+    height: auto;
+}
 @media (max-width: 600px) {
     .titan {
         width: 60px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .mari {
+        width: 60px;
+    }
+}
+@media (max-width:500px) {
+    .baile{
+        width: 50px;
+        right: 200px;
+        position: fixed;
+        top: 0;
+    }
+}
+@media (max-width: 900px){
+    .baile{
+        width: 80px;
+        top: 10px;
+        right: 680px;
+    }
+}
+
+@media (max-width: 500px){
+    .baile{
+        width: 50px;
+        top: 10px;
+        right: 10px;
     }
 }
