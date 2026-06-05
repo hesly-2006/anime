@@ -8,8 +8,9 @@ body{
  background-image: url("fondo2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  padding: 60px;
+  background-position: center;
+  padding: 30px;
+  background-attachment: fixed;
   background-color: rgba(255, 255, 33, 0.527);
 }
 
@@ -63,7 +64,7 @@ body
 }
 
 .umg {
-    width: 100px;
+    width: 60px;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -130,9 +131,9 @@ div{
     height: auto;
 }
 
-#fondo {
-    max-width: 200%;
-    max-height: 300% ;
+#fondo2 {
+    max-width: 300%;
+    max-height: 400% ;
     height: auto;
 }
 
