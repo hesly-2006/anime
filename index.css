@@ -15,9 +15,6 @@ body{
 
 }
 
-.primera-pantalla{
-    overflow-x: hidden;
-}
 
 .visitas {
     position: absolute;
@@ -167,8 +164,7 @@ div{
         font-size: 10px;
     }
 
-    .sailor {
-        width: 60px;
-    }
+
+ 
 
 }
