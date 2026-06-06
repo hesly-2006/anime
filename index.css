@@ -8,8 +8,8 @@ body{
  background-image: url("fondo2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  padding: 30px;
+  background-position: center center center;
+  padding: 10px;
   background-attachment: fixed;
   background-color: rgba(255, 255, 33, 0.527);
 
