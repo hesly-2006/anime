@@ -12,8 +12,13 @@ body{
   padding: 10px;
   background-attachment: fixed;
   background-color: rgba(255, 255, 33, 0.527);
-
+background-origin: padding-box;
+background-position-x: 50%;
+background-position-y: 50%;
+box-sizing: border-box;
+background-attachment: fixed;
 }
+
 
 
 .visitas {
@@ -148,6 +153,7 @@ div{
 @media (max-width: 600px) {
     body {
         flex-direction: column;
+       
     }
     .nezuko {
         width: min(150px, 30vw);
