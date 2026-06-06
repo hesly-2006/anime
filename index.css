@@ -12,6 +12,11 @@ body{
   padding: 30px;
   background-attachment: fixed;
   background-color: rgba(255, 255, 33, 0.527);
+
+}
+
+.primera-pantalla{
+    overflow-x: hidden;
 }
 
 .visitas {
